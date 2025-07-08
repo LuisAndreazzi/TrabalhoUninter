@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f8ff; /* Cor suave para o fundo */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #4682b4; /* Cor diferente para o título */
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em; /* Tamanho de fonte maior */
+    text-align: justify;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.8; /* Espaçamento maior entre os itens */
+}
+
+img {
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaço extra abaixo da imagem */
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007bff; /* Cor padrão do link */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3; /* Cor do link ao passar o mouse */
+}
